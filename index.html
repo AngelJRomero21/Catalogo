@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <title>CALZADO DEPORTIVO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
     <section class="contenido">
@@ -85,12 +87,18 @@
                 <span class="precio" id="precio">$ 130</span>
 
                 <div class="fila"
-                    <button  id="submit" type="submit">Comprar</button>
+                       <button id="submit"
+                    class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    type="submit">
+                    <i class="fab fa-whatsapp"></i> Comprar
+                </button>
                 </div>
             </div>
         </div>
     </section>
 
+    <script src="https://kit.fontawesome.com/1e268974cb.js" crossorigin="anonymous"></script>
+    <script src="https://cromstudio.online/assets/js/helpers.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
