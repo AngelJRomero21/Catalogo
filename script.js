@@ -16,7 +16,7 @@ function cargar(item){
 
     modeloSeleccionado.innerHTML =  item.getElementsByTagName("p")[0].innerHTML;
 
-    descripSeleccionada.innerHTML = "Descripción del modelo ";
+    descripSeleccionada.innerHTML = "CardCraft son Tarjetas Motivacionales fabricadas con Papel Artesanal.";
 
     precioSeleccionado.innerHTML =  item.getElementsByTagName("span")[0].innerHTML;
 
